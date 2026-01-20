@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبة الفيديو | د.محمد يسري</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #00b4d8;
+            --secondary-color: #0077b6;
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-color: #2d3436;
+        }
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+        }
+
+        /* رأس صفحة ثابت وأصغر */
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        header h1 { margin: 0; color: var(--secondary-color); font-size: 1.3rem; }
+        header p { color: #636e72; margin-top: 5px; font-size: 0.9rem; }
+
+        .container {
+            max-width: 600px; /* عرض ضيق يناسب الهاتف */
+            margin: 15px auto;
+            padding: 0 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* مسافة صغيرة بين الأزرار */
+        }
+
+        /* تصميم الشريط المختصر */
+        .video-link-item {
+            display: flex;
+            align-items: center;
+            background: var(--card-bg);
+            padding: 12px 15px; /* تقليل الحشو ليكون الشريط أقصر */
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid #e0e0e0;
+            transition: background 0.2s;
+        }
+
+        .video-link-item:active {
+            background-color: #f0f0f0; /* تأثير عند الضغط باللمس */
+            transform: scale(0.98);
+        }
+
+        .icon-small {
+            width: 35px;
+            height: 35px;
+            background-color: #000;
+            color: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            margin-left: 15px;
+            flex-shrink: 0;
+        }
+
+        .content-small {
+            flex-grow: 1;
+        }
+
+        .content-small h3 {
+            margin: 0;
+            font-size: 0.95rem; /* خط أصغر للعناوين */
+            color: var(--text-color);
+            font-weight: 700;
+        }
+
+        .content-small p {
+            margin: 2px 0 0 0;
+            font-size: 0.75rem;
+            color: #888;
+        }
+
+        .chevron {
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #999;
+            font-size: 0.75rem;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>د.محمد يسري</h1>
+    <p>استشاري الذكورة والصحة الجنسية وتأخر الحمل
+</p>
+</header>
+
+<div class="container">
+    
+    <a href="https://www.tiktok.com/@dratyaf_centers/video/7596689244249148693" class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>دكتور محمد يسري يتحدث عن حالة عقم اولي لاكثر من 15 سنة ونسبة الزوج صفر </h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+    </a>
+
+    <a href="https://www.tiktok.com/@dratyaf_centers/video/7593701413922901269" class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>دكتور محمد يسري يتحدث عن دوالي الخصية</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+    </a>
+
+    <a href="https://www.tiktok.com/@dratyaf_centers/video/7591509371268484373" class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>حامل اطفال انابيب بعد عقم اولي 15 سنة ونسبة الزوج صفر وسنوات من العلاج بلا فائدة</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+    </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7589639266142063892" class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>حامل اطفال انابيب بعد انتظار 8 سنوات وحالة الزوج نسبة صفر</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+    </a>
+
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7588879895560752404" class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>دكتور محمد يسري يتحدث عن حالة مميزة نسبة صفر</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+    </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7588045127743081749"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>عقم اولي 9 سنوات ونسبة الزوج صفر مع ضعف مستويات الهرمونات</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7587381379256552725"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>دكتور محمد يسري يتحدث عن التفتيش المايكروسكوبي  للتحصل على حيوانات منوية في حالات النسبة صفر</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7586190978743127317"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>دكتور محمد يسري يتحدث عن حالة مميزة وصعبة  عقم اولي 10 سنوات والنسبة صفر</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7580265630369123605"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>عقم اولي 15 سنة بين زواج سابق وزواج حالي نسبة الزوج صفر</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7579882210082245909"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>بعد محاولة خزعة سابقة بسنة 2017 وتم اجراء اللازم ورزق بتوأم ذكور</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+
+    <a href="https://www.tiktok.com/@dratyaf_centers/video/7577659515269631253"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>حامل اطفال انابيب تاخر انجاب 6 سنوات بسبب ضعف شديد في حيامن الزوج وتشوهات الحيامن</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7575856357836934421"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>حالة مفرحة جدا رغم كل الصعوبات عقم اولي 8 سنوات والنسبة صفر</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7574505935222131988"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>بعد رحلة طويلة من المعاناة كان الزوج يعاني من تاخر الانجاب لاكثر من 15 سنة وضعف شديد بانتاجية الخصية</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7572183279336426772"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>دكتور محمد يسري يتحدث عن اهمية تجميد الحيوانات المنوية من السائل المنوي</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+<a href="https://www.tiktok.com/@dratyaf_centers/video/7569486712913530132"class="video-link-item" target="_blank">
+        <div class="icon-small"><i class="fab fa-tiktok"></i></div>
+        <div class="content-small">
+            <h3>بعد عقم اولي لاكثر من 16 سنة بسبب نسبة الزوج صفر</h3>
+        </div>
+        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
+     </a>
+
+</div>
+
+<footer>
+    &copy; 2026 مراكز الدكتورة اطياف حسن - كافة الحقوق محفوظة
+</footer>
+
+</body>
+</html>
